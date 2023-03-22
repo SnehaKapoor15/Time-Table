@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>School Timetable</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        table{ 
+    margin: 100px auto;
+    }
+table, td, th{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background-color: rgb(19, 221, 217);
+}
+tr:nth-child(even){
+    background-color: rgb(188, 245, 233);
+}
+#break{
+    background-color: rgb(171, 231, 240);
+}
+
+    </style>
+</head>
+
+<body>
+   
+    <table>
+    <caption><h4><em>Time Table</em></h4></caption>
+    
+        <tr>
+        <th>Day/Period</th>
+        <th>9:30-10:30</th>
+        <th>10:30-11:30</th>
+        <th>11:30-12:30</th>
+        <th>12:30-01:00</th>
+        <th>01:00-02:00</th>
+        <th>02:00-03:00</th>
+        <th>03:00-04:00</th>
+        <th>04:00-04:30</th>
+        <th>04:30-5:30</th>
+        </tr>
+    
+    <!-- <tbody> -->
+        <tr>
+        <th>Monday</th>
+        <td>Maths</td>
+        <!-- <td rowspan="6"><b>B<br>R<br>E<br>A<br>K</td> -->
+        <td>Chemistry</td>
+        <td rowspan="6" id="break"><b>B<br>R<br>E<br>A<br>K</br></td>
+        <td>English</td>
+        <td>Social Studies</td>
+        <td rowspan="6" id="break"><b>B<br>R<br>E<br>A<br>K</td>
+        <td>Physics</td>
+        <td>Aptitude</td>
+        <td>Technical</td>
+        </tr>
+        <tr>
+        <th>Tuesday</th>
+        <td >Aptitude</td>
+        <td>English</td>
+        <td>Maths</td>
+        <td>HTML</td>
+        <td>Chemistry</td>
+        <td>G.K</td>
+        <td>Technical</td>
+        
+        </tr>
+        <tr>
+        <th>Wednesday</th>
+        <td>Maths</td>
+        <td>Physics</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td>CSS</td>
+        <td colspan="3">Aptitude & Mock Test</td>
+        </tr>
+        <tr>
+        <th>Thursday</th>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td>Technical</td>
+        <td>Physics</td>
+        <td>Aptitude</td>
+        <td>G.K</td>
+        </tr>
+        <tr>
+        <th>Friday</th>
+        <td>Technical</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Aptitude</td>
+        <td>Chemistry</td>
+        <td>Physics</td>
+        <td>Technical</td>
+        </tr>
+        <tr>
+        <th>Saturday</th>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td>Aptitude</td>
+        <td>G.K</td>
+        <td>Physics</td>
+        <td>Maths</td>
+        </tr>
+    <!-- </tbody> -->
+    </table>
+</body>
+
+</html>
